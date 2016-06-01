@@ -1,0 +1,10 @@
+[all:vars]
+username=nick
+password=trestles
+
+
+[spines]
+spine01	
+
+[leafs]
+leaf01

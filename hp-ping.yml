@@ -1,0 +1,12 @@
+---
+
+  - name: Ansible+Comware Ping
+    hosts: spines
+    gather_facts: no
+    connection: local
+
+    tasks:
+
+      - name: ping spine01
+        comware_ping: host=10.79.10.18 username={{ username }} password={{ password }} hostname={{ inventory_hostname }}
+
